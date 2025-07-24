@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+## Step 1: Project Initialization  
+Created a new React project using `create-react-app` and set up the basic folder structure.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Step 2: Created ToDoList Component  
+Built a functional React component named `ToDoList` to manage and display tasks.
 
-## Available Scripts
+## Step 3: Used useState for State Management  
+Initialized two state variables using `useState`: one for the task list and another for new task input.
 
-In the project directory, you can run:
+## Step 4: Built Task Input Section  
+Added an input field and "Add" button to allow users to type and add new tasks.
 
-### `npm start`
+## Step 5: Implemented Add Task Functionality  
+Created the `addTask()` function to add non-empty tasks to the list and clear the input afterward.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Step 6: Implemented Delete Task Feature  
+Built the `deleteTask()` function to remove a task based on its index using `.filter()`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Step 7: Added Move Task Up/Down  
+Added logic in `moveTaskUp()` and `moveTaskDown()` functions to reorder tasks by swapping array elements.
 
-### `npm test`
+## Step 8: Rendered Task List with Buttons  
+Mapped over the `tasks` array to display each task in an ordered list with "Delete", "Up", and "Down" buttons.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Step 9: Styled Components  
+Applied basic styling using class names for buttons, inputs, and task text for better UI clarity.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Step 10: Final Testing and Debugging  
+Tested all features (add, delete, reorder), ensured input clearing works, and verified React component updates properly.
